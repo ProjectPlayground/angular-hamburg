@@ -1,3 +1,15 @@
-<p>
-  header works!
-</p>
+<div class="root">
+  <app-logo></app-logo>
+  <div class="content">
+    <div class="info">
+      <h1 class="title">Hamburg&#39;s<br />Angular Meetup</h1>
+      <app-typer></app-typer>
+      <div class="date">
+        Next Meetup on <span class="highlight">{{"nextMeetup.date"}}</span>
+      </div>
+      <app-button href="#nextMeetup.link" type="large">
+        RSVP & Join us on Meetup
+      </app-button>
+    </div>
+  </div>
+</div>

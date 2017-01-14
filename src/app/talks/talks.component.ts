@@ -12,4 +12,8 @@ export class TalksComponent implements OnInit {
   ngOnInit() {
   }
 
+  renderTalks() {
+    return "renderTalks";
+  }
+
 }

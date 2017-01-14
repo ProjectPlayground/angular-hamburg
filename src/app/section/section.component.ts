@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionComponent implements OnInit {
 
+  public title: string = "";
+  public text: string = "";
+  public children: string = "";
+  public contentClassName: string = "";
+
   constructor() { }
 
   ngOnInit() {

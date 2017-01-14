@@ -12,4 +12,8 @@ export class TeamsComponent implements OnInit {
   ngOnInit() {
   }
 
+  members() {
+    return "members";
+  }
+
 }

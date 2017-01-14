@@ -12,4 +12,8 @@ export class CommunityComponent implements OnInit {
   ngOnInit() {
   }
 
+  renderPlatforms() {
+    return "renderPlatforms!";
+  }
+
 }

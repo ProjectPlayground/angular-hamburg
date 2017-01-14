@@ -12,4 +12,7 @@ export class SponsorsComponent implements OnInit {
   ngOnInit() {
   }
 
+  sponsors() {
+    return "sponsors!";
+  }
 }

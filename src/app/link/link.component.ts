@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LinkComponent implements OnInit {
 
+  public className: string = '';
+  public href: string = "#href";
+  public title: string = 'title';
+  public children: string = "children";
+
   constructor() { }
 
   ngOnInit() {

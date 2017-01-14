@@ -1,5 +1,12 @@
 
-@import '../variables.css';
+:root {
+    --red: #DD0031;
+    --white: #F8F8F8;
+    --grey: #312E36;
+    --baseSpacing: 40px;
+    --smallSpacing: 10px;
+}
+
 
 .outerContainer {
     position: absolute;

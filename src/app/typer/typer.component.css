@@ -1,6 +1,3 @@
-
-@import '../variables.css';
-
 @keyframes pulse {
     from, to {
         opacity: 1

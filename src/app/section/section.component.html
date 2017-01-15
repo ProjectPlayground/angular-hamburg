@@ -3,5 +3,7 @@
     <span class="highlight">{{title}}</span>
   </h2>
   <p class={text}>{{text}}</p>
-  <ul class="content {{contentClassName}}">{{children}}</ul>
+  <ul class="content content--{{contentClassName}}">
+    <ng-content></ng-content>
+  </ul>
 </div>

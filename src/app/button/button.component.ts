@@ -8,11 +8,10 @@ import {Component, OnInit, ViewEncapsulation, Input} from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
-    public href: string = '#href';
-    public secondary: boolean = false;
-    public large: boolean = false;
-    public className: string = '';
-    @Input('title') title: string = 't';
+    @Input() public href: string = '#';
+    @Input() public type: string = "secondary";
+    @Input() public contentClassName: string;
+    @Input() public title: string = "default title";
 
     constructor() {
     }

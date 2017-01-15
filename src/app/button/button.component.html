@@ -1,3 +1,3 @@
-<a class="button {{ secondary? 'secondary': ''}} {{large? 'large':''}} {{className}} href={{href}}">
-{{title}}
+<a class="button {{ type === 'secondary'? 'button--secondary': 'button--large'}} button--{{contentClassName}} href={{href}}">
+    {{title}}
 </a>

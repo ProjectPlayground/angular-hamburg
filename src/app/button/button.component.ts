@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {Component, OnInit, ViewEncapsulation, Input} from '@angular/core';
 
 @Component({
     selector: 'app-button',
@@ -12,7 +12,7 @@ export class ButtonComponent implements OnInit {
     public secondary: boolean = false;
     public large: boolean = false;
     public className: string = '';
-    public children: string = 'button text';
+    @Input('title') title: string = 't';
 
     constructor() {
     }

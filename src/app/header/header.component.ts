@@ -1,4 +1,5 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {nextMeetup} from '../config';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,14 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  public link: string;
+  public date: string;
+
+  constructor() {
+
+    this.link = nextMeetup.link;
+    this.date = nextMeetup.date;
+  }
 
   ngOnInit() {
   }

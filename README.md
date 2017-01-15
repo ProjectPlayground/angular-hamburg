@@ -1,31 +1,39 @@
-# AngularHamburg
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
+# angular-hamburg
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+**The [angular.hamburg](https://angular.hamburg/) website for Hamburg's [Angular](https://angular.io/) [Meetup](https://www.meetup.com/Hamburg-AngularJS-Meetup/), jokingly made with [React](https://github.com/facebook/react).**
 
-## Code scaffolding
+[![](https://raw.githubusercontent.com/angular-hamburg/angular.hamburg/master/docs/media/preview.png)](https://angular.hamburg/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+**Heavily inspired by and partially forked from the beautiful website of [HannoverJS](https://github.com/HannoverJS/hannoverjs.de).**
 
-## Build
+## Development
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+### Todos
 
-## Running unit tests
+- Start I18N, specifically for supporting German
+- Make A11y check
+- Implement API for retrieving the next Meetup and Talks dynamically
+- Improve `Next Meetup` section with host, location, time of day, spots available, and possibly a countdown clock
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Angular TODOs (WIP)
 
-## Running end-to-end tests
+- Implement offline service workers and Indicator
+- Proper typer component
+- Proper next meetup date on Header Component
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+**Major todos for version `1.0.0`:**
 
-## Deploying to Github Pages
+- Rewrite in Angular
+- Rewrite CSS in LESS or SASS
 
-Run `ng github-pages:deploy` to deploy to Github Pages.
+### Commands
 
-## Further help
+- **`npm start`**: starts development server on `localhost:3000`
+- **`npm run build`**: generates production build in the `/docs` folder
 
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## License
+
+MIT
+
+Made with :anchor: in Hamburg.

@@ -17,6 +17,7 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 import { TalksComponent } from './talks/talks.component';
 import { TeamsComponent } from './teams/teams.component';
 import { TyperComponent } from './typer/typer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { TyperComponent } from './typer/typer.component';
     SponsorsComponent,
     TalksComponent,
     TeamsComponent,
-    TyperComponent
+    TyperComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

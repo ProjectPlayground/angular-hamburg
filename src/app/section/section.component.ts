@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {Component, OnInit, ViewEncapsulation, Input} from '@angular/core';
 
 @Component({
   selector: 'app-section',
@@ -8,10 +8,10 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 })
 export class SectionComponent implements OnInit {
 
-  public title: string = "";
-  public text: string = "";
-  public children: string = "";
-  public contentClassName: string = "";
+  @Input() public title: string;
+  @Input() public text?: string;
+  @Input() public content: string;
+  @Input() public contentClassName: string;
 
   constructor() { }
 

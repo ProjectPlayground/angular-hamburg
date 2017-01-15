@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'app-sponsors',
   templateUrl: './sponsors.component.html',
-  styleUrls: ['../variables.css', './sponsors.component.css']
+  styleUrls: ['../variables.css', './sponsors.component.css'],
+  encapsulation: ViewEncapsulation.Native
 })
 export class SponsorsComponent implements OnInit {
 

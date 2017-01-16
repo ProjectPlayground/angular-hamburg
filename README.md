@@ -11,16 +11,22 @@
 
 ### Todos
 
+
 - Start I18N, specifically for supporting German
 - Make A11y check
 - Implement API for retrieving the next Meetup and Talks dynamically
 - Improve `Next Meetup` section with host, location, time of day, spots available, and possibly a countdown clock
 
-#### Angular TODOs (WIP)
+#### Angular porting TODOs
 
-- Implement offline service workers and Indicator
-- Proper typer component
-- Proper next meetup date on Header Component
+- Implement proper typer
+- Fix talks css
+- Fix "what it  is about" alignment
+- Team: Move HTML template, bl, css
+- Sponsors: Move HTML template, bl and css
+- Community: Move HTML template, bl and css
+- align footer
+- service workers
 
 **Major todos for version `1.0.0`:**
 

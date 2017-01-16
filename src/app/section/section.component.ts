@@ -9,7 +9,6 @@ import {Component, OnInit, ViewEncapsulation, Input} from '@angular/core';
 export class SectionComponent implements OnInit {
 
   @Input() public title: string;
-  @Input() public text?: string;
   @Input() public content: string;
   @Input() public contentClassName: string;
 

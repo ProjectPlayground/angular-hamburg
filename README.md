@@ -35,8 +35,9 @@
 
 ### Commands
 
-- **`npm start`**: starts development server on `localhost:3000`
-- **`npm run build`**: generates production build in the `/docs` folder
+- **`npm start`**: starts development server on `localhost:4200`
+- **`ng github-pages:deploy`**: generates production build for github. 
+(https://angular-hamburg.github.io//angular-hamburg/)
 
 ## License
 

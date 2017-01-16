@@ -6,10 +6,20 @@ export const nextMeetup = {
 
 export const nextTalks = [
   {
-    reserved: false
+    reserved: false,
+    title: 'Free Slot',
+    description: 'This slot could be yours!',
+    contact: 'mailto:meetup@angular.hamburg',
+    buttonText: 'Submit a Talk',
+    text: 'Trouble finding an idea for a talk?<br /> Feel free to contact us.'
   },
   {
-    reserved: false
+    reserved: false,
+    title: 'Free Slot',
+    description: 'This slot could be yours!',
+    contact: 'mailto:meetup@angular.hamburg',
+    buttonText: 'Submit a Talk',
+    text: 'Trouble finding an idea for a talk?<br /> Feel free to contact us.'
   }
 ]
 

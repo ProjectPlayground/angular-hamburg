@@ -19,9 +19,8 @@
 
 #### Angular porting TODOs
 
-- Implement proper typer
-- Fix talks css
-- Fix "what it  is about" alignment
+- Implement proper Typer component
+- talks: make it dynamic for freeSlots and bookSlot. 
 - Team: Move HTML template, bl, css
 - Sponsors: Move HTML template, bl and css
 - Community: Move HTML template, bl and css

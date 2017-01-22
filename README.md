@@ -26,6 +26,7 @@
 - Community: Move HTML template, bl and css
 - align footer
 - service workers
+- Fix button component when onhover. 
 
 **Major todos for version `1.0.0`:**
 

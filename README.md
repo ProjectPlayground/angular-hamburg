@@ -19,13 +19,13 @@
 
 #### Angular porting TODOs
 
-- Implement proper Typer component
-- talks: make it dynamic for freeSlots and bookSlot. 
-- Team: Move HTML template, bl, css
-- Sponsors: Move HTML template, bl and css
-- Community: Move HTML template, bl and css
-- align footer
-- service workers
+- talks: make it dynamic for freeSlots and bookedSlots. 
+- Team: make it dynamic following react app code
+- Sponsors: make it dynamic following react app code
+- Fix / build app-link comonent
+- Community: Apply app-link component to template
+- Apply service workers
+- Apply Typer
 - Fix button component when onhover. 
 
 **Major todos for version `1.0.0`:**

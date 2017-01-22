@@ -32,6 +32,7 @@
     color: var(--white);
     text-align: center;
     font-weight: 300;
+    min-width: 200px;
 }
 
 .talk:last-child {

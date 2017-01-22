@@ -27,10 +27,11 @@
 - Apply service workers
 - Apply Typer
 - Fix button component when onhover. 
+- HH angular favicon
+- Reduce bundle size (3.2mb)
 
 **Major todos for version `1.0.0`:**
 
-- Rewrite in Angular
 - Rewrite CSS in LESS or SASS
 
 ### Commands

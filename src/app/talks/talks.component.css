@@ -1,11 +1,14 @@
-.content {
-    justify-content: center;
+:host {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-@media (max-width: 767px) {
-    .content {
-        flex-direction: column;
-    }
+:host {
+    justify-content: center;
 }
 
 .freeSlot {

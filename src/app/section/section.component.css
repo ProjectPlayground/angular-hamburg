@@ -9,6 +9,10 @@
     font-weight: 400;
 }
 
+.content {
+    padding: 0;
+}
+
 .text {
     max-width: 750px;
     margin-left: auto;
@@ -20,23 +24,13 @@
     text-align: center;
 }
 
-.content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 .highlight {
     padding-bottom: 5px;
     border-bottom: 1px solid var(--red);
 }
 
-.content--talk {
-    justify-content: center;
-}
+/* specific children css */
+
 
 @media (max-width: 767px) {
     .content--talk {

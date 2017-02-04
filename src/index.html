@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="The angular.hamburg meetup is a meetup around the Angular framework which takes place in Hamburg. We're open to anyone interested in the topic. Whether you're a beginner dying to poke questions at someone with experience or a veteran wanting to discuss the finer details, everyone is welcome.">
+  <meta name="description"
+        content="The angular.hamburg meetup is a meetup around the Angular framework which takes place in Hamburg. We're open to anyone interested in the topic. Whether you're a beginner dying to poke questions at someone with experience or a veteran wanting to discuss the finer details, everyone is welcome.">
   <meta name="subject" content="Hamburg's Angular Meetup">
-  <link rel="canonical" href="https://angular.hamburg" />
+  <link rel="canonical" href="https://angular.hamburg"/>
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="assets/favicons/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="assets/favicons/android-chrome-192x192.png" sizes="192x192">
@@ -21,7 +22,52 @@
   <title>angular.hamburg – Hamburg's Angular Meetup</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .root-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      margin: 100px auto;
+      background-color: #333;
+
+      border-radius: 100%;
+      -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+      animation: sk-scaleout 1.0s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0)
+      }
+      100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+
+    @keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+      100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+  </style>
 <body>
-  <app-root>Loading...</app-root>
+<app-root>
+  <div class="root-center">
+    <div class="spinner"></div>
+  </div>
+</app-root>
 </body>
 </html>

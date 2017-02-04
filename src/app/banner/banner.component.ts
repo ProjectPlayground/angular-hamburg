@@ -1,12 +1,21 @@
-import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {Component, style, ViewEncapsulation, state, animate, transition, trigger} from '@angular/core';
 
 @Component({
   selector: 'app-banner',
   templateUrl: './banner.component.html',
   styleUrls: ['./banner.component.css'],
-  encapsulation: ViewEncapsulation.Emulated
+  encapsulation: ViewEncapsulation.Emulated,
+  animations: [
+    trigger('flyInOut', [
+      state('in', style({opacity: 1})),
+      transition('void => *', [
+        style({opacity: 0}),
+        animate(300)
+      ])
+    ])
+  ]
 })
-export class BannerComponent implements OnInit {
+export class BannerComponent {
 
   constructor() { }
 

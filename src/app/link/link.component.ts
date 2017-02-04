@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {Component, OnInit, ViewEncapsulation, Input} from '@angular/core';
 
 @Component({
   selector: 'app-link',
@@ -8,10 +8,10 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 })
 export class LinkComponent implements OnInit {
 
-  public className: string = '';
-  public href: string = "#href";
-  public title: string = 'title';
-  public children: string = "children";
+  @Input() public className: string = '';
+  @Input() public href: string = '';
+  @Input() public title: string = '';
+  @Input() public children: string = '';
 
   constructor() { }
 

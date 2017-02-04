@@ -1,13 +1,73 @@
 <!doctype html>
-<html><head><link href="styles.fc40f0b9b24472a85a62.bundle.css" rel="stylesheet"></head>
+<html><head><link href="styles.f4dbea4a1d64854eacb1.bundle.css" rel="stylesheet"></head>
 <head>
   <meta charset="utf-8">
-  <title>AngularHamburg</title>
-  <base href="/angular-hamburg/">
-
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="description"
+        content="The angular.hamburg meetup is a meetup around the Angular framework which takes place in Hamburg. We're open to anyone interested in the topic. Whether you're a beginner dying to poke questions at someone with experience or a veteran wanting to discuss the finer details, everyone is welcome.">
+  <meta name="subject" content="Hamburg's Angular Meetup">
+  <link rel="canonical" href="https://angular.hamburg"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="assets/favicons/manifest.json">
+  <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#d11e34">
+  <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-TileImage" content="assets/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#DD0031">
+  <title>angular.hamburg – Hamburg's Angular Meetup</title>
+  <base href="/angular-hamburg/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .root-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      margin: 100px auto;
+      background-color: #333;
+
+      border-radius: 100%;
+      -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+      animation: sk-scaleout 1.0s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0)
+      }
+      100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+
+    @keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+      100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+      }
+    }
+  </style>
 <body>
-  <app-root>Loading...</app-root>
-<script type="text/javascript" src="inline.77fa020bc9dffe1edb9c.bundle.js"></script><script type="text/javascript" src="main.cfc06222504cdad857c9.bundle.js"></script></body>
+<app-root>
+  <div class="root-center">
+    <div class="spinner"></div>
+  </div>
+</app-root>
+<script type="text/javascript" src="inline.8d22d5391c28633d0bce.bundle.js"></script><script type="text/javascript" src="main.2ad61524ef9a9ae2e399.bundle.js"></script></body>
 </html>

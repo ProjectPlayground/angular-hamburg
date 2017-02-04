@@ -11,24 +11,12 @@
 
 ### Todos
 
-
+- Offline mode: service workers
+- Dynacmic Typer
 - Start I18N, specifically for supporting German
 - Make A11y check
 - Implement API for retrieving the next Meetup and Talks dynamically
 - Improve `Next Meetup` section with host, location, time of day, spots available, and possibly a countdown clock
-
-#### Angular porting TODOs
-
-- talks: make it dynamic for freeSlots and bookedSlots. 
-- Team: make it dynamic following react app code
-- Sponsors: make it dynamic following react app code
-- Fix / build app-link comonent
-- Community: Apply app-link component to template
-- Apply service workers
-- Apply Typer
-- Fix button component when onhover. 
-- HH angular favicon
-- Reduce bundle size (3.2mb)
 
 **Major todos for version `1.0.0`:**
 

@@ -1,40 +1,43 @@
 
 .button {
-    display: inline-block;
-    padding: 7px 11px;
-    color: var(--white);
-    background-color: var(--red);
-    border: 1px solid var(--red);
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 200;
-    transition: all 0.25s ease;
+  display: inline-block;
+  padding: 7px 11px;
+  color: var(--white);
+  background-color: var(--red);
+  border: 1px solid var(--red);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 200;
+  transition: all 0.25s ease;
 }
 
 .button:hover,
 .button:focus {
-    color: var(--white);
-    background: transparent;
+  color: var(--white);
+  background: transparent;
 }
 
 .button--secondary {
-    border: 1px solid var(--white);
+  cursor: pointer;
+  border: 1px solid var(--white);
 }
 
 .button--secondary:hover,
 .button--secondary:focus {
-    background-color: var(--white)
+  background-color: var(--white);
+  color: #312E36;
 }
 
 .button--large {
-    padding: 8.5px 14px;
-    font-size: 20px;
+  padding: 8.5px 14px;
+  font-size: 20px;
 }
 
 .submit:hover {
-    color: #333;
+  color: #333;
 }
 
 .button--header {
-    margin-top: 22px;
+  margin-top: 22px;
+  cursor: pointer;
 }

@@ -5,7 +5,7 @@ import {nextMeetup} from '../config';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['../variables.css', './header.component.css'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class HeaderComponent implements OnInit {
 

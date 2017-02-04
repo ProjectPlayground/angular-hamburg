@@ -4,7 +4,7 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
   selector: 'app-banner',
   templateUrl: './banner.component.html',
   styleUrls: ['./banner.component.css'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class BannerComponent implements OnInit {
 

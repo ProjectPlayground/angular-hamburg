@@ -4,7 +4,7 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
   selector: 'app-community',
   templateUrl: './community.component.html',
   styleUrls: ['./community.component.css'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class CommunityComponent implements OnInit {
 

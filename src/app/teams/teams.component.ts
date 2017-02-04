@@ -4,7 +4,7 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
   selector: 'app-teams',
   templateUrl: './teams.component.html',
   styleUrls: ['../variables.css', './teams.component.css'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class TeamsComponent implements OnInit {
 

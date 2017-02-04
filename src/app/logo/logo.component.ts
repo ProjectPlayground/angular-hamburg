@@ -4,7 +4,7 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
   selector: 'app-logo',
   templateUrl: './logo.component.html',
   styleUrls: ['./logo.component.css'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class LogoComponent implements OnInit {
 

@@ -4,7 +4,7 @@ import {Component, OnInit, ViewEncapsulation, Input} from '@angular/core';
   selector: 'app-link',
   templateUrl: './link.component.html',
   styleUrls: ['./font-awesome.min.css', '../variables.css', './link.component.css'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class LinkComponent implements OnInit {
 

@@ -4,7 +4,7 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
   selector: 'app-indicator',
   templateUrl: './indicator.component.html',
   styleUrls: ['../variables.css', './indicator.component.css'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class IndicatorComponent implements OnInit {
 

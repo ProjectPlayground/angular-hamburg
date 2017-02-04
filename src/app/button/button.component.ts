@@ -4,7 +4,7 @@ import {Component, OnInit, ViewEncapsulation, Input} from '@angular/core';
     selector: 'app-button',
     templateUrl: './button.component.html',
     styleUrls: ['../variables.css', './button.component.css'],
-    encapsulation: ViewEncapsulation.Native
+    encapsulation: ViewEncapsulation.Emulated
 })
 export class ButtonComponent implements OnInit {
 

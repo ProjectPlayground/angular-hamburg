@@ -5,7 +5,7 @@ import { nextTalks } from '../config'
     selector: 'app-talks',
     templateUrl: './talks.component.html',
     styleUrls: ['../variables.css', './talks.component.css'],
-    encapsulation: ViewEncapsulation.Native
+    encapsulation: ViewEncapsulation.Emulated
 })
 export class TalksComponent implements OnInit {
 

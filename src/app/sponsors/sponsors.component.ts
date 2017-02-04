@@ -4,7 +4,7 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
   selector: 'app-sponsors',
   templateUrl: './sponsors.component.html',
   styleUrls: ['../variables.css', './sponsors.component.css'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class SponsorsComponent implements OnInit {
 

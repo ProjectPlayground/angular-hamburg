@@ -4,7 +4,7 @@ import {Component, OnInit, ViewEncapsulation, Input} from '@angular/core';
   selector: 'app-section',
   templateUrl: './section.component.html',
   styleUrls: ['../variables.css', './section.component.css'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class SectionComponent implements OnInit {
 

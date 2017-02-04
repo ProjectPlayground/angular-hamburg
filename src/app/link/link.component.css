@@ -10,3 +10,18 @@
 .link:focus {
     opacity: 0.6;
 }
+
+
+.link__community {
+  font-size: 28px;
+  line-height: 55px;
+}
+
+.link__community:hover {
+  font-size: 28px;
+  font-weight: 300;
+  color: #f8f8f8;
+  text-decoration: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}

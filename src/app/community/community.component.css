@@ -23,9 +23,19 @@
     max-width: 50px;
     text-align: center;
     font-size: 32px;
+    max-width: 100px;
 }
 
 .link {
     font-size: 28px;
     line-height: 55px;
+}
+
+.link:hover {
+  font-size: 14px;
+  font-weight: 300;
+  color: #f8f8f8;
+  text-decoration: none;
+  -webkit-transition: .2s;
+  transition: .2s;
 }

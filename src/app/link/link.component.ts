@@ -9,6 +9,7 @@ import {Component, OnInit, ViewEncapsulation, Input} from '@angular/core';
 export class LinkComponent implements OnInit {
 
   @Input() public className: string = '';
+  @Input() public target: string = '';
   @Input() public href: string = '';
   @Input() public title: string = '';
   @Input() public children: string = '';
